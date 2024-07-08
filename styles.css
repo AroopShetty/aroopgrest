@@ -1,0 +1,36 @@
+body,h1,h2,p{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+}
+header{
+    background-color: aqua;
+    color: whitesmoke;
+    padding: 2rem;
+    text-align: center;
+}
+main{
+    padding: 2rem;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.photo{
+    flex: 1;
+    padding: 2rem;
+}
+.photo img{
+    max-width: 100%;
+    height:auto;
+    border-radius:3%
+}
+footer{
+    background-color: pink;
+    color: mediumaquamarine;
+    text-align: center;
+    padding: 1 rem 0;
+}
